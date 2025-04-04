@@ -5,6 +5,7 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/*Style Navigation Bar*/
 a{
     color: #fff;
     text-decoration: none;
@@ -50,6 +51,8 @@ a{
 .navbar ul li:active a {
     color: #7cf03d;
 }
+
+/*Style Home Section*/
 .home{
     display: flex;
     align-items: center;
@@ -217,6 +220,7 @@ a{
     }
 }
 
+/*Making it responsive even on small screens*/
 @media (max-width: 768px) {
     .navbar ul {
         flex-direction: column;
